@@ -301,7 +301,7 @@ public class ListPanel extends FilterPanel {
         });
 
         changeAssigneeMenuItem.setText(changeAssigneeMenuItemText);
-        changeAssigneeMenuItem.setOnAction( e -> {
+        changeAssigneeMenuItem.setOnAction(e -> {
             changeAssignee();
         });
 
